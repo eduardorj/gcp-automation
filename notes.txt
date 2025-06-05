@@ -1,0 +1,15 @@
+region=us-central1
+zone=us-central1-b
+prj=modernization-env
+
+gcloud projects add-iam-policy-binding modernization-env \
+ --member="user:admin@edufrancellino.altostrat.com" \
+ --role="roles/compute.viewer"
+
+gcloud projects add-iam-policy-binding modernization-env \
+  --member="user:admin@edufrancellino.altostrat.com" \
+  --role="roles/compute.viewer"
+
+gcloud projects add-iam-policy-binding modernization-env \
+  --member="user:admin@edufrancellino.altostrat.com" \
+  --role="roles/compute.viewer"
